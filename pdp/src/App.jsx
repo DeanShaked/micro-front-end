@@ -1,8 +1,9 @@
-import React from "react";
+import React, { Suspense } from "react";
 import ReactDOM from "react-dom";
 
-import Header from "home/Header";
-import Footer from "home/Footer";
+// Async dynamic import
+const Header = React.lazy(() => import("home/Header"));
+const Footer = React.lazy(() => import("home/Footer"));
 
 import "./index.scss";
 
