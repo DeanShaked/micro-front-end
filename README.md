@@ -6,3 +6,5 @@ Components are shared in ```Singleton``` mode, which means it shares ***only*** 
 ```pdp``` - using the exposed components by home.
 
 ```cart```  
+
+``server`` - 
