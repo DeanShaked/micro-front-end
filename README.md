@@ -7,4 +7,10 @@ Components are shared in ```Singleton``` mode, which means it shares ***only*** 
 
 ```cart```  
 
-``server`` - 
+``server`` 
+
+## Tech stack
+- ReactJS
+- NestJS
+- Module Federation
+- TailwindCSS
